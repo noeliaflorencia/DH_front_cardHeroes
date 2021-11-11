@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top-banner {
+    background-color: #1CD1B0;
+    
+}
+
+.top-banner p {
+    padding:10px;
+}
+
+.banner {
+    background-color: #00669F;
+}
+
+.banner h1 {
+    padding:20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.main__card {
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   
+    
+    }
+
+
+.card__banner {
+    background-image: url(../img/banner_batman.png);
+    height: 193px;
+    display: flex;
+    align-items:flex-start;
+}
+
+.harley {
+    background-image: url(../img/banner_harley.png);
+}
+
+.card__banner img {
+    border-radius:50%;
+    width: 120px;
+    position: relative;
+    left:19px;
+    top: 110px;
+
+}
+
+.card__banner i {
+    color:red;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.card__text {
+    padding: 10px;
+    margin-top:40px;
+    text-align: left;
+    
+}
+
+.card__text h2 {
+    text-align: center;
+    margin:10px;
+    text-transform: uppercase;
+}
+
+.card__text__btn {
+    margin-bottom:20px;
+    margin-top:40px;
+    text-align:center;
+}
+
+.card__text__btn a {
+    color:#ffffff;
+    background-color: #00669F;
+    padding:10px 30px;
+    text-align:center;
+    text-decoration: none;
+    
+    
+}
+
+footer {
+    background-color: #00669F;
+    padding:10px;
+    color:#ffffff;
+}
+
+
